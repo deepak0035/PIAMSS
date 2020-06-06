@@ -1,0 +1,490 @@
+/* Navbar */
+.navbar-brand {
+    font-family: 'Merienda One', cursive;
+    color: #145A32 !important;
+    font-size: 24px;
+  } 
+  nav {
+    margin: 0 auto;
+    background: #F0F3F4;
+    padding: 50px 0;
+    box-shadow: 0px 5px 0px #dedede;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: #555;
+  }
+  
+  
+
+  
+  .logo {
+      width: 70px;
+  }
+
+
+
+/* SHIFT */
+.shift ul li a {
+    position:relative;
+    z-index: 1;
+  }
+.shift ul li a:hover {
+    color: #fff;
+  }
+.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #145A32;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  
+  
+  
+  
+
+
+  
+/* Carousel */
+
+.carousel-caption {
+    margin-bottom: 13%;
+}
+.carousel-caption h5{
+    font-family: 'Merienda One', cursive;
+color: #F7F9F9;    
+font-size: 40px; 
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+}  
+.carousel-caption p{
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 5px 5px 5px black;
+    font-size: 15px; 
+}
+
+@media only screen and (min-width: 992px) {
+  .drk:after {
+    content: "" ;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+  }
+}
+
+/* Introduction */
+.intrologo {
+    width: 200px;
+}
+.introh h1 {
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 50px !important;
+    color: #145A32;
+    text-align: center;
+ }
+
+
+.introh h6 {
+    font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 20px;
+color: black;
+}
+
+.introp{
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  }
+
+    
+  .services {
+    font-family: 'Josefin Sans', sans-serif;     
+    letter-spacing: 1px;
+    margin-top: 15px;
+    color: #555;
+    font-size: 20px;
+    list-style: none;
+}.bg-green {
+    background-color: #145A32 !important;
+}
+
+
+
+    
+   
+
+    
+/* Services */
+.admission {
+    background: linear-gradient(green,#145a32);
+}
+    
+.adh h2{
+    text-align: center;
+      color: #F7F9F9 !important;
+      padding-bottom: 10px;
+      font-family: 'Josefin Sans', sans-serif;     
+
+      text-transform: uppercase ;
+      }
+      .adh h5 {
+          text-align: center;
+
+color: #F7F9F9;
+      }
+   
+ 
+    
+
+
+
+  @media only screen and (min-width: 576px) {
+    
+    ::-webkit-scrollbar{
+      width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track{
+      border: 7px solid #F7F9F9;
+      box-shadow: inset 0 0 2.5px 2px rgb(0,0,0,0.5);
+    }
+    
+    ::-webkit-scrollbar-thumb{
+      background: linear-gradient(
+    45deg,
+green,    #145A32);
+    border-radius: 3px;
+    }
+  
+}
+
+
+/* gallery */
+.logo-slider img {
+    width: 100%;
+  }
+      
+      
+  .logoc {
+    max-width: 90%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+  .logoc h1{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    }
+    .logoc h1::after {
+      content: '';
+      background: #145A32;
+      display: block;
+      width: 10%;
+    height: 3px;
+    margin: 10px auto 5px;
+    }
+  .logo-slider .item {
+    box-shadow: 0 4px 5px black;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  .logo-slider .slick-slide {
+    margin: 15px;
+  }
+  
+  .logo-slider .item:hover {
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+  }
+
+
+  /* footer */
+  footer.nb-footer {
+    background: #F0F3F4;
+    box-shadow: 0px 0px 0px 5px #dedede;
+}
+    footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1170px;
+    text-align: center; }
+
+    footer.nb-footer .about .social-media {
+    margin-top: 10px; }
+    footer.nb-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #145A32;
+    border: 2px solid #dedede;
+   }
+    footer.nb-footer .about .social-media ul li a:hover {
+    background: #145A32;
+    color: #fff;
+    border-color: #145A32; }
+    footer.nb-footer .footer-info-single {
+    margin-top: 15px; }
+    footer.nb-footer .footer-info-single .title {
+    color: #444;
+    font-size: 16px;
+    border-left: 4px solid #145A32;
+    padding-left: 5px; }
+   
+   
+
+    footer.nb-footer .copyright {
+    margin-top: 5px;
+    padding: 7px 0;
+
+color: #333; }
+    footer.nb-footer .copyright p {
+    margin: 0;
+    padding: 0; }
+    .footer-logo{
+width: 100px;
+    }
+    .footh h1{
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      margin-top: 5px;
+      padding-bottom: 5px;
+      text-transform: uppercase ;
+      }
+      .footh h1::after {
+        content: '';
+        background: #145A32;
+        display: block;
+        width: 180px;
+      height: 3px;
+      margin: 7px auto 5px;
+      }
+  .mailto {
+    color: #145a32 !important;
+    font-family: 'Josefin Sans', sans-serif;     
+
+    border-radius: 5px   ;
+    text-decoration: none;
+padding: 5px 5px 5px 5px; 
+ }
+  .mailto:hover {
+    text-decoration: none;
+    transition: all ease 0.3s;
+font-weight: bold;    
+ }
+
+
+
+
+  /* back-to-top button */
+
+  #button {
+    display: inline-block;
+background: linear-gradient(45deg,#145a32, green);    
+width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+   /* our team */
+
+ .cardbody {
+    font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #777;
+ }
+ 
+
+ #team img {
+     margin-top: -50px;
+ }
+ #team h3 {
+     color: black;
+     font-family: 'Raleway', sans-serif;
+
+     font-weight: bold;
+ }
+ #team h5 {
+    font-family:'Ubuntu',sans-serif;
+
+color: #333;
+     font-weight: 300;
+ }
+
+ #team .card {
+border-radius: 30px 0 30px 0;
+box-shadow: 5px 5px 10px  rgb(0,0,0,0.2);
+transition: all 0.3s ease-in;
+-webkit-transition: all 0.3s ease-in;
+-moz-transition: all 0.3s ease-in;
+ }
+ #team .card:hover {
+background: #145a32;
+color: white;
+cursor: pointer;
+
+border: none;
+box-shadow: 5px 5px 10px black;
+
+ }
+ #team .card:hover h3,
+ #team .card:hover h5 {
+     color: #fff;  
+ }
+
+
+
+ 
+.web h2
+{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+        padding-bottom: 10px;
+        }
+        
+
+    /* Services */
+    .web {
+        background-image: url(images/bg.jpg )   ;
+        position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .webbg {
+            position: absolute;
+            background: black;
+            opacity: 0.8;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .webh h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            text-transform: uppercase ;
+            }
+table {
+    text-align: center;
+    border-top: 2px solid #999;
+    margin-top: 5px;
+    
+}
+
+
+
+table td {margin-top: 5px;
+    border-top: 1px solid #999;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #999;
+}
+
+.vd {
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    text-transform: uppercase ;
+    }
+    .vd h2::after {
+      content: '';
+      background: #145A32;
+      display: block;
+      width: 170px;
+    height: 3px;
+    margin: 10px auto 5px;
+    }
